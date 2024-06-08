@@ -11,11 +11,12 @@ export default function Home() {
   const Apple=()=>{
    setName("Ansari")
   } 
-
+  
   return (
     <main className={styles.main}>
       <h1>{name}</h1>
       <button onClick={()=>Apple()}>Click Me</button>
     </main>
   );
+  
 }
