@@ -9,7 +9,7 @@ export default function Home() {
   const [name, setName]=useState('Rizwan');
 
   const Apple=()=>{
-   setName("Ahmad")
+   setName("Bhutoo")
   } 
   
   return (
