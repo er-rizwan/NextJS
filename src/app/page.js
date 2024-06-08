@@ -9,7 +9,7 @@ export default function Home() {
   const [name, setName]=useState('Rizwan');
 
   const Apple=()=>{
-   setName("Ansari")
+   setName("Ahmad")
   } 
   
   return (
@@ -18,5 +18,5 @@ export default function Home() {
       <button onClick={()=>Apple()}>Click Me</button>
     </main>
   );
-  
+
 }
