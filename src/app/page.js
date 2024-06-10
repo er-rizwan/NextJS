@@ -32,6 +32,8 @@ export default function Home() {
       <Link href="/About">Go to About Page</Link>
       <button onClick={()=>Navig('/Login')}>Go To Login</button>
       <button onClick={()=>Navig('/About')}>Go To About</button>
+      <Link href='/About/AboutStudent'>Goto About Student</Link>
+      <Link href='/About/AboutCollage'>Goto About Collage Page</Link>
       {InnerComp()}
       <button onClick={()=>Apple()}>Click Me</button>
     </main>
