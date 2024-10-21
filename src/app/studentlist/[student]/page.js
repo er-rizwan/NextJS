@@ -8,4 +8,4 @@ export default function Student({params}){
             <h3>Name : {params.student}</h3>
         </div>
     )
-};
+};  
