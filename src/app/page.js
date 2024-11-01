@@ -27,7 +27,7 @@ export default function Home() {
   
   return (
     <main className={styles.main}>
-      <h1>Fetch data with API in Client Component</h1>
+      <h1>Fetch data with API i7n Client Component</h1>
       <Link href="/productlist">Go to productlist Page</Link>
       <Link href="/Login">Go to Login Page</Link>
       <Link href="/About">Go to About Page</Link>
