@@ -43,7 +43,7 @@ export default async function page(){
       <h1>Product List from server API call.</h1>
       {
       products.map((products)=>(
-          <div>
+        <div key={products.id}> 
              <h1> Title : {products.title} </h1>
              <Product price={products.price}/>
           </div>
